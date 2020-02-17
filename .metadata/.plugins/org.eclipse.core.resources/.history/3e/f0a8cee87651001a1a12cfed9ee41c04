@@ -1,0 +1,18 @@
+
+public class Fase4 {
+	public static void main(String[]args) {
+		String nameAndLastname = "Flavio Dilello";
+		
+		String bornDate = "21/1/1975";
+		System.out.println("Mi nombre es "+nameAndLastname);
+		int prueba = Integer.parseInt(bornDate);
+		System.out.println(bornDate.substring(5,8));
+		System.out.println("Mi fecha de nacimiento es "+bornDate);
+		if (1975%4 == 0) {
+			System.out.println("Mi año de nacimiento es de traspaso");
+		} else {
+			System.out.println("Mi año de nacimiento no es de traspaso");
+		}
+		
+	}
+}

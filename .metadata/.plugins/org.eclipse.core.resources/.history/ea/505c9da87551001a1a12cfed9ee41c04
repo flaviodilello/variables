@@ -1,0 +1,15 @@
+
+public class Fase4 {
+	public static void main(String[]args) {
+		String nameAndLastname = "Flavio Dilello";
+		String bornDate = "21/1/1975";
+		System.out.println("Mi nombre es "+nameAndLastname);
+		System.out.println("Mi fecha de nacimiento es "+bornDate);
+		if () {
+			System.out.println("Mi año de nacimiento es de traspaso");
+		} else {
+			System.out.println("Mi año de nacimiento no es de traspaso");
+		}
+		
+	}
+}

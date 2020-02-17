@@ -1,0 +1,22 @@
+public class Fase3 {
+	public static void main(String[]args) {
+		final int year1 = 1948;
+		final int myBornYear = 1975;
+		boolean isOrNot = false;
+		String [] frases = null;
+		for (int i = year1; i<=myBornYear; i++) {
+			if (i % 4 == 0) {
+				isOrNot = true;
+				if (isOrNot==true) {
+					System.out.println("El año "+i+" es bisiesto.");
+					frases[i] = "sí";
+					System.out.println(frases[i]);
+				}
+				else {
+					isOrNot = false;
+					System.out.println("El año "+i+" no es bisiesto");
+				}
+			}
+		}
+	}
+}
